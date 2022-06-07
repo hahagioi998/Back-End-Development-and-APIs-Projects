@@ -1,0 +1,96 @@
+body {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+#googleBtn {
+    background-image: url('./img/btn_google_signin_light_normal_web.png')
+}
+
+.nav-link {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-family: 'Josefin Slab', serif !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+    .navbar-brand img {
+        margin-top: -10px;
+    }
+
+.navbar-light {
+    background-color: transparent !important;
+    border-color: transparent;
+    background-image: none;
+    box-shadow: none;
+}
+
+.jumbotron {
+    background-color: rgb(62, 69, 133);
+    min-height: 100vh;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+    .jumbotron .container {
+        margin-top: 30vh;
+    }
+
+/* Search Result Page */
+.sidebar-content {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgb(104, 192, 154);
+    overflow: auto;
+}
+
+    .sidebar-content ul {
+        border: none;
+    }
+
+        .sidebar-content ul li {
+            background-color: rgb(104, 192, 154);
+            color: white;
+            border-left: 0 none !important;
+            border-right: 0 none !important;
+        }
+/* .thumb {
+  height: 100px;
+  width: 100px;
+} */
+#map {
+    height: 100%;
+    width: 100%;
+    left: 40%;
+    position: absolute;
+    right: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar-content {
+        width: 100%;
+    }
+
+    #map {
+        width: 0px;
+        height: 0px;
+    }
+
+    .navbar-brand-txt {
+        visibility: hidden;
+    }
+
+    nav button {
+        margin-top: 5px;
+    }
+}
